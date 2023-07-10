@@ -16,13 +16,13 @@ const Details = ({ type, time, place, info }) => {
         whileInView={{ y: 0 }}
         transition={{ duration: 0.5, type: "spring" }}
       >
-        <h3 className="capitalize font-bold text-2xl sm:text-xl xs:text-lg">
+        <h3 className="capitalize font-bold text-2xl sm:text-xl xs:text-lg mb-3">
           {type}&nbsp;
         </h3>
-        <span className="capitalize font-medium text-dark/75 dark:text-light/75 xs:text-sm">
+        <span className="capitalize font-medium text-dark/75 dark:text-light/75 xs:text-sm ">
           {time} | {place}
         </span>
-        <p className="font-medium w-full md:text-sm">{info}</p>
+        <p className="font-medium w-full md:text-sm mt-3">{info}</p>
       </motion.div>
     </li>
   );
@@ -35,7 +35,7 @@ const Education = () => {
     offset: ["start end", "center start"],
   });
   return (
-    <div className="my-64 lg:my-32 md:my-32 sm:my-32">
+    <div className="my-32 lg:my-32 md:my-32 sm:my-32">
       <h2 className="font-bold text-8xl mb-32 w-full text-center lg:text-7xl md:text-6xl xs:text-4xl md:mb-16">
         Education
       </h2>
@@ -49,7 +49,7 @@ const Education = () => {
             type="Bachelor of Computer Applications"
             time="2019-2022"
             place="Ravindranath Thakor University (RNTU)"
-            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Data-Bases."
+            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering,Core-PHP, OS, Oracel and Data-Bases."
           />
           <Details
             type="Masters in Web Development Coursework"

@@ -4,7 +4,10 @@ import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
+import project1 from "../../public/images/projects/vasudevExpo.png";
+import project2 from "../../public/images/projects/iRoomz.png";
+import project3 from "../../public/images/projects/e-Commerce.png";
+import project4 from "../../public/images/projects/EMS.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -135,8 +138,8 @@ const projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProjects
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts.It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
+                title="Vasudev Export-Import"
+                summary="A feature-rich Export-Import App using React, Context API, React Router and Recharts.It shows detail regarding almost all the Facilites To exports and Imports. You can easily send Goods to World from Local."
                 link={"/"}
                 github={"/"}
                 img={project1}
@@ -145,33 +148,33 @@ const projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Crypto Screener Application"
+                title="i-Roomz"
                 link={"/"}
                 github={"/"}
-                img={project1}
+                img={project2}
                 type="Featured Project"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Crypto Screener Application"
+                title="E-Commerce"
                 link={"/"}
                 github={"/"}
-                img={project1}
+                img={project3}
                 type="Featured Project"
               />
             </div>
             <div className="col-span-12">
               <FeaturedProjects
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts.It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
+                title="Empolyee Management System"
+                summary="The Employee Management System website is a comprehensive online platform designed to streamline and enhance various aspects of employee management within an organization. It provides a range of features and functionalities to effectively manage employee information, streamline HR processes, and facilitate efficient communication and collaboration between employees and administrators."
                 link={"/"}
                 github={"/"}
-                img={project1}
+                img={project4}
                 type="Featured Project"
               />
             </div>
-            <div className="col-span-6 sm:col-span-12">
+            {/* <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Crypto Screener Application"
                 link={"/"}
@@ -188,7 +191,7 @@ const projects = () => {
                 img={project1}
                 type="Featured Project"
               />
-            </div>
+            </div> */}
           </div>
         </Layout>
       </main>

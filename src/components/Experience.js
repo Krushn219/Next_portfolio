@@ -16,7 +16,7 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
         whileInView={{ y: 0 }}
         transition={{ duration: 0.5, type: "spring" }}
       >
-        <h3 className="capitalize font-bold text-2xl sm:text-xl xs:text-lg">
+        <h3 className="capitalize font-bold text-2xl sm:text-xl xs:text-lg mb-3">
           {position}&nbsp;
           <a
             href={companyLink}
@@ -29,7 +29,7 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
         <span className="capitalize font-medium text-dark/75 dark:text-light/75 xs:text-sm">
           {time} | {address}
         </span>
-        <p className="font-medium w-full md:text-sm">{work}</p>
+        <p className="font-medium w-full md:text-sm mt-3">{work}</p>
       </motion.div>
     </li>
   );
@@ -42,7 +42,7 @@ const Experience = () => {
     offset: ["start end", "center start"],
   });
   return (
-    <div className="my-64 lg:my-32 md:my-32 sm:my-24">
+    <div className="my-32 lg:my-32 md:my-32 sm:my-24">
       <h2 className="font-bold text-8xl mb-32 w-full text-center lg:text-7xl md:text-6xl xs:text-4xl md:mb-16">
         Experience
       </h2>
@@ -53,22 +53,22 @@ const Experience = () => {
         />
         <ul className="w-full flex flex-col items-center justify-between ml-4 xs:ml-2">
           <Details
-            position="Software Engineer"
-            company="Google"
-            companyLink="https://www.google.com"
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
+            position="Back End Developer"
+            company="GreeWeb"
+            companyLink="http://www.greewebsolutions.com/"
+            time="june 2022-Present"
+            address="Surat, Gujarat, India"
+            work="Joined As a Trainee. Learn and Work in Back-end Development. Worked on different projects for different clients. Assisted the head designer in numerous projects. Works closely with freshers and team."
           />
           <Details
-            position="Software Developer Intern"
-            company="Microsoft"
-            companyLink="https://www.microsoft.com"
-            time="Summer 2019"
-            address="Redmond, WA."
-            work="Worked on a team responsible for developing new features for Microsoft's Windows operating system, including implementing a new user interface for a system settings panel and optimizing the performance of a core system component."
+            position="Front-end developer"
+            company="FuthreTech BizSoft LLP "
+            companyLink="http://futuretechbizsoft.com/NewWebsite/Default.aspx"
+            time="June 2021- Jan 2019"
+            address="Surat, Gujarat, India."
+            work="Worked on a team responsible for developing new features for Clients's Websites using HTML5, CSS3, Bootstrap."
           />
-          <Details
+          {/* <Details
             position="Software Developer"
             company="Amazon"
             companyLink="https://www.amazone.com"
@@ -85,7 +85,7 @@ const Experience = () => {
             work="Worked on a team responsible for developing a new mobile app feature that allowed users to create and 
 share short-form video content, including designing and implementing a new user interface and developing 
 the backend infrastructure to support the feature."
-          />
+          /> */}
         </ul>
       </div>
     </div>

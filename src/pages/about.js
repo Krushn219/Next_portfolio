@@ -55,10 +55,10 @@ const about = () => {
                 About Me
               </h2>
               <p className="font-medium">
-                Hi, I&#x2019;m CodeBucks, a web developer and UI/UX designer
+                Hi, I&#x2019;m Krushnavandan, a web developer 
                 with a passion for creating beautiful, functional, and
-                user-centered digital experiences. With 4 years of experience in
-                the field. I am always looking for new and innovative ways to
+                user-centered digital experiences. With 1 year and 9 months of experience in
+                the field, I am always looking for new and innovative ways to
                 bring my clients&#x2019; visions to life.
               </p>
               <p className="my-4 font-medium">
@@ -67,14 +67,14 @@ const about = () => {
                 intuitive, enjoyable experiences for users.
               </p>
               <p className="font-medium">
-                Whether I&#x2019;m working on a website, mobile app, or other
+                Whether I&#x2019;m working on a website,  or another
                 digital product, I bring my commitment to design excellence and
                 user-centered thinking to every project I work on. I look
                 forward to the opportunity to bring my skills and passion to
                 your next project.
               </p>
             </div>
-            <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8">
+            {/* <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8">
               <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light" />
               <Image
                 src={ProfileImage}
@@ -83,7 +83,7 @@ const about = () => {
                 priority
                 sizes="(max-width:768px) 100vw,(max-width:1200px) 50vw,33vw"
               />
-            </div>
+            </div> */}
             <div className="col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3">
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
