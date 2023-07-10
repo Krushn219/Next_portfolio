@@ -4,10 +4,10 @@ import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import project1 from "../../public/images/projects/vasudevExpo.png";
-import project2 from "../../public/images/projects/iRoomz.png";
-import project3 from "../../public/images/projects/e-Commerce.png";
-import project4 from "../../public/images/projects/EMS.png";
+import project1 from "../../public/images/projects/vasudevexpo-min.PNG";
+import project2 from "../../public/images/projects/iroomz-min.PNG";
+import project3 from "../../public/images/projects/ecommerce-min.PNG";
+import project4 from "../../public/images/projects/ems-min.PMS";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
