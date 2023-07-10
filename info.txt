@@ -22,6 +22,6 @@ https://express.adobe.com/tools/convert-to-svg/#
 https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/repeating-radial-gradient
 
 
-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
+git="KRUSHNA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VANDAN"
 atlas :: 8gcmTJYoPF86YiMd
 
