@@ -4,7 +4,7 @@ import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import project1 from "../../public/images/projects/iroomz-min.PNG";
+import project1 from "../../public/images/projects/iroomz.png";
 // import project2 from "/images/projects/iroomz-min.PNG";
 // import project3 from "/images/projects/ecommerce-min.PNG";
 // import project4 from "/images/projects/ems-min.PNG";
