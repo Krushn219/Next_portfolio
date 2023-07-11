@@ -5,9 +5,9 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import project1 from "../../public/images/projects/iroomz.png";
-// import project2 from "/images/projects/iroomz-min.PNG";
-// import project3 from "/images/projects/ecommerce-min.PNG";
-// import project4 from "/images/projects/ems-min.PNG";
+import project2 from "/images/projects/vasudev.png";
+import project3 from "/images/projects/ecommerce.png";
+import project4 from "/images/projects/ems.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -142,7 +142,7 @@ const projects = () => {
                 summary="A feature-rich Export-Import App using React, Context API, React Router and Recharts.It shows detail regarding almost all the Facilites To exports and Imports. You can easily send Goods to World from Local."
                 link={"/"}
                 github={"/"}
-                img={project1}
+                img={project2}
                 type="Featured Project"
               />
             </div>
@@ -160,7 +160,7 @@ const projects = () => {
                 title="E-Commerce"
                 link={"/"}
                 github={"/"}
-                img={project1}
+                img={project3}
                 type="Featured Project"
               />
             </div>
@@ -170,7 +170,7 @@ const projects = () => {
                 summary="The Employee Management System website is a comprehensive online platform designed to streamline and enhance various aspects of employee management within an organization. It provides a range of features and functionalities to effectively manage employee information, streamline HR processes, and facilitate efficient communication and collaboration between employees and administrators."
                 link={"/"}
                 github={"/"}
-                img={project1}
+                img={project4}
                 type="Featured Project"
               />
             </div>
