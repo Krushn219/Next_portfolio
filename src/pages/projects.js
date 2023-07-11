@@ -5,9 +5,9 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import project1 from "../../public/images/projects/iroomz.png";
-import project2 from "/images/projects/vasudev.png";
-import project3 from "/images/projects/ecommerce.png";
-import project4 from "/images/projects/ems.png";
+import project2 from "../../public/images/projects/vasudev.png";
+import project3 from "../../public/images/projects/ecommerce.png";
+import project4 from "../../public/images/projects/ems.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
