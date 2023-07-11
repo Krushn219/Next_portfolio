@@ -4,10 +4,10 @@ import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import project1 from "../../public/images/projects/vasudevexpo-min.PNG";
-import project2 from "../../public/images/projects/iroomz-min.PNG";
-import project3 from "../../public/images/projects/ecommerce-min.PNG";
-import project4 from "../../public/images/projects/ems-min.PNG";
+import project1 from "../../public/images/projects/agency-website-cover-image.jpg";
+// import project2 from "/images/projects/iroomz-min.PNG";
+// import project3 from "/images/projects/ecommerce-min.PNG";
+// import project4 from "/images/projects/ems-min.PNG";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -151,7 +151,7 @@ const projects = () => {
                 title="i-Roomz"
                 link={"/"}
                 github={"/"}
-                img={project2}
+                img={project1}
                 type="Featured Project"
               />
             </div>
@@ -160,7 +160,7 @@ const projects = () => {
                 title="E-Commerce"
                 link={"/"}
                 github={"/"}
-                img={project3}
+                img={project1}
                 type="Featured Project"
               />
             </div>
@@ -170,7 +170,7 @@ const projects = () => {
                 summary="The Employee Management System website is a comprehensive online platform designed to streamline and enhance various aspects of employee management within an organization. It provides a range of features and functionalities to effectively manage employee information, streamline HR processes, and facilitate efficient communication and collaboration between employees and administrators."
                 link={"/"}
                 github={"/"}
-                img={project4}
+                img={project1}
                 type="Featured Project"
               />
             </div>
