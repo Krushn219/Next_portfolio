@@ -127,7 +127,7 @@ const NavBar = () => {
           >
             <LinkedInIcon />
           </motion.a>
-          <motion.a
+          {/* <motion.a
             href="https://pinterest.com"
             target="_blank"
             whileHover={{ y: -2 }}
@@ -135,8 +135,8 @@ const NavBar = () => {
             className="w-6 mx-3 bg-light rounded-full"
           >
             <PinterestIcon />
-          </motion.a>
-          <motion.a
+          </motion.a> */}
+          {/* <motion.a
             href="https://dribbble.com"
             target="_blank"
             whileHover={{ y: -2 }}
@@ -144,7 +144,7 @@ const NavBar = () => {
             className="w-6 ml-3"
           >
             <DribbbleIcon />
-          </motion.a>
+          </motion.a> */}
           {/* <a href="https://instagram.com" target="_blank">
           <InstagramIcon />
         </a> */}

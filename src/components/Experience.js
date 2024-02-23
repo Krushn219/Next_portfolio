@@ -52,11 +52,19 @@ const Experience = () => {
           className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light md:w-[2px] md:left-[30px] xs:left-[20px]"
         />
         <ul className="w-full flex flex-col items-center justify-between ml-4 xs:ml-2">
+        <Details
+            position="Full-stack Developer"
+            company="StackAPp"
+            companyLink="https://stackappinfotech.com/"
+            time="sep 2023- dec 2023"
+            address="Surat, Gujarat, India."
+            work="Worked on a team responsible for developing client's web apps, including implementing new features such as product recommendations and user reviews, and optimizing the app's performance and reliability."
+          />
           <Details
             position="Back End Developer"
             company="GreeWeb"
             companyLink="http://www.greewebsolutions.com/"
-            time="june 2022-Present"
+            time="june 2022- August 2023"
             address="Surat, Gujarat, India"
             work="Joined As a Trainee. Learn and Work in Back-end Development. Worked on different projects for different clients. Assisted the head designer in numerous projects. Works closely with freshers and team."
           />
@@ -68,15 +76,8 @@ const Experience = () => {
             address="Surat, Gujarat, India."
             work="Worked on a team responsible for developing new features for Clients's Websites using HTML5, CSS3, Bootstrap."
           />
+          
           {/* <Details
-            position="Software Developer"
-            company="Amazon"
-            companyLink="https://www.amazone.com"
-            time="2020-2021"
-            address="Battle, WA."
-            work="Worked on a team responsible for developing Amazon's mobile app, including implementing new features such as product recommendations and user reviews, and optimizing the app's performance and reliability."
-          />
-          <Details
             position="Intern"
             company="Facebook"
             companyLink="https://www.facebook.com"

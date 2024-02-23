@@ -45,6 +45,12 @@ const Education = () => {
           className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light md:w-[2px] md:left-[30px] xs:left-[20px]"
         />
         <ul className="w-full flex flex-col items-center justify-between ml-4 xs:ml-2">
+        <Details
+            type="MSc in Management"
+            time="2024-present"
+            place="Leeds Beckett University (LBU), Leeds, UK"
+            info="Relevant courses included Effective Leadership, Management People and Oraganizations, Managing Financial Resorces etc."
+          />
           <Details
             type="Bachelor of Computer Applications"
             time="2019-2022"
