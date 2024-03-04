@@ -54,7 +54,7 @@ const Experience = () => {
         <ul className="w-full flex flex-col items-center justify-between ml-4 xs:ml-2">
         <Details
             position="Full-stack Developer"
-            company="StackAPp"
+            company="StackApp"
             companyLink="https://stackappinfotech.com/"
             time="sep 2023- dec 2023"
             address="Surat, Gujarat, India."
